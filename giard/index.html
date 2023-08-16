@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nawigacja</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .search-input {
+        max-height: 0;
+        opacity: 0;
+        transition: max-height 0.3s, opacity 0.3s;
+        display: none;
+      }
+      .search-input.active {
+        max-height: 100px;
+        opacity: 1;
+        transition: max-height 0.3s 0.3s, opacity 0.3s 0.3s;
+        display: block;
+      }
+      .nav-item {
+        margin-right: 48px;
+      }
+      .navbar-toggler-icon {
+        color: black; /* Użyj koloru czarnego */
+      }
+      .nav-link:not(#searchIcon) {
+        transition: transform 0.3s;
+      }
+      .search-input.active ~ .nav-item:not(#searchIcon).active {
+        transform: translateX(-40px);
+      }
+      .search-input.active .form-control:focus {
+        border-color: #1b5b31;
+        box-shadow: 0 0 0 0.2rem #1b5b3183;
+      }
+      @media (min-width: 800px) {
+        .nav-item.active {
+          transition: transform 0.3s;
+          transform: translateX(-40px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light py-4">
+      <a class="navbar-brand text-dark" href="#"
+        ><strong>Giard</strong>Designe</a
+      >
+      <button
+        class="navbar-toggler bg-dark"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ml-auto">
+          <div class="nav-item dropdown">
+            <a
+              class="nav-link text-dark dropdown-toggle"
+              href="#"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+            >
+              Oferta
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Opcja 1</a>
+              <a class="dropdown-item" href="#">Opcja 2</a>
+              <a class="dropdown-item" href="#">Opcja 3</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link text-dark" href="#">Realizacje</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link text-dark" href="#">Kontakt</a>
+          </div>
+          <div class="nav-item">
+            <div class="search-input">
+              <input
+                type="text"
+                id="searchInput"
+                class="form-control"
+                placeholder="Wyszukaj..."
+              />
+            </div>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link text-dark" id="searchIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./scripts/searchbar.js"></script>
+    <script src="./scripts/DropDownMenu.js"></script>
+  </body>
+</html>
