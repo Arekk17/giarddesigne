@@ -83,6 +83,9 @@
   .searchBox .close {
     scale: 0;
   }
+  .search{
+    cursor: pointer;
+  }
   
   .searchBox .searchInput {
     position: relative;
@@ -103,5 +106,3 @@
       transform: translateX(-40px);
     }
   }
- 
-/***** Top menu *****/
