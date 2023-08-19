@@ -5,12 +5,9 @@ function checkScroll() {
   squares.forEach(function (square) {
     var bounding = square.getBoundingClientRect();
 
-    // Jeśli dolna krawędź elementu jest widoczna w oknie przeglądarki
     if (bounding.bottom < windowHeight) {
-      square.classList.add("animate"); // Dodaj klasę animacji
+      square.classList.add("animate");
     }
   });
 }
-
-// Wywołaj funkcję checkScroll przy przewijaniu
 window.addEventListener("scroll", checkScroll);
