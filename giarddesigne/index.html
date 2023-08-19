@@ -14,6 +14,7 @@
     ></script>
     <link rel="stylesheet" href="./styles/Navigation.css" />
     <link rel="stylesheet" href="./styles/Intro.css" />
+    <link rel="stylesheet" href="./styles/Offer.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-white py-4">
@@ -94,7 +95,7 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid p-0">
+    <article class="container-fluid p-0">
       <div id="slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -250,13 +251,102 @@
           </div>
         </div>
       </div>
-    </div>
-
+    </article>
+    <article class="offer-container w-100">
+      <div class="offer-text">
+        <small class="title-text">Oferta</small>
+        <h2>Działamy kompleksowo</h2>
+        <p>
+          Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
+          nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla
+          Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym
+          etapie posłużymy radą i wieloletnim doświadczeniem.
+        </p>
+      </div>
+      <div class="row flex justify-content-center align-items-center">
+        <div class="col-md-4">
+          <div class="square-box">
+            <img src="./assets/Pen.png" alt="" />
+            <h3>Projekty</h3>
+            <span>
+              Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
+              wykorzystaniem istniejącej przestrzeni.
+            </span>
+            <button class="btn button-offer">
+              Dowiedz się więcej
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z"
+                  fill="#1B5B31"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4 align-items-center">
+          <div class="square-box">
+            <img src="./assets/Eye.png" alt="" />
+            <h3>Wizualizacje</h3>
+            <span>
+              Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru
+              animowanego w technologii 3D.
+            </span>
+            <button class="btn button-offer">
+              Dowiedz się więcej
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z"
+                  fill="#1B5B31"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="square-box">
+            <img src="./assets/Star.png" alt="" />
+            <h3>Realizacje</h3>
+            <span>
+              Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i
+              zaawansowanych technologii.
+            </span>
+            <button class="btn button-offer">
+              Zobacz nasze realizacje
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.99528 -1.20755e-06L7.09959 0.895696L13.5769 7.36358L-7.5502e-07 7.36358L-6.43745e-07 8.63642L13.5675 8.63642L7.09959 15.1043L7.99529 16L16 7.99529L7.99528 -1.20755e-06Z"
+                  fill="#1B5B31"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./scripts/searchbar.js"></script>
     <script src="./scripts/DropDownMenu.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/OfferSquareAnimation.js"></script>
   </body>
 </html>
