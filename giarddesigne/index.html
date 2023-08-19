@@ -95,7 +95,7 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid p-0">
+    <article class="container-fluid p-0">
       <div id="slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -251,8 +251,8 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="offer-container w-100">
+    </article>
+    <article class="offer-container w-100">
       <div class="offer-text">
         <small class="title-text">Oferta</small>
         <h2>Działamy kompleksowo</h2>
@@ -340,7 +340,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </article>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -348,21 +348,20 @@
     <script src="./scripts/DropDownMenu.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-      // Funkcja do płynnego pojawiania się elementów
       function fadeInAndTranslateX(element, duration) {
         element.style.opacity = 0;
-        element.style.transform = "translateY(-40px)"; // Initial x translation
+        element.style.transform = "translateY(-40px)";
         let startTime = null;
 
         function animate(timestamp) {
           if (!startTime) startTime = timestamp;
           const progress = timestamp - startTime;
           const opacity = progress / duration;
-          const translateX = (progress / duration) * 40; // Translate by 40px
+          const translateX = (progress / duration) * 40;
 
           if (opacity >= 1) {
             element.style.opacity = 1;
-            element.style.transform = "translateY(0)"; // Reset translation
+            element.style.transform = "translateY(0)";
           } else {
             element.style.opacity = opacity;
             element.style.transform = `translateY(calc(-40px + ${translateX}px))`;
@@ -372,13 +371,9 @@
 
         requestAnimationFrame(animate);
       }
-
-      // Get elements to animate
       const squareBoxes = document.querySelectorAll(".square-box");
-
-      // Apply fadeInAndTranslateX function to each element
       squareBoxes.forEach((box) => {
-        fadeInAndTranslateX(box, 1000); // Adjust animation duration as needed
+        fadeInAndTranslateX(box, 1000);
       });
     </script>
   </body>
