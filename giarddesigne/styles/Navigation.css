@@ -100,9 +100,11 @@
     height: 100%;
     font-size: 20px;
   }
+  
   @media (min-width: 800px) {
     .nav-item.active {
       transition: transform 0.3s;
       transform: translateX(-40px);
     }
   }
+  

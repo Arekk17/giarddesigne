@@ -11,8 +11,10 @@
   align-items: flex-start;
   margin-left: 200px;
 }
-
 .square-box {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.5s, transform 0.5s;
   background-color: white;
   display: flex;
   align-items: flex-start;
@@ -22,6 +24,10 @@
   border-radius: 30px;
   padding: 48px 40px;
   min-width: 200px;
+}
+.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .square-box img {

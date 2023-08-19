@@ -347,34 +347,6 @@
     <script src="./scripts/searchbar.js"></script>
     <script src="./scripts/DropDownMenu.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-      function fadeInAndTranslateX(element, duration) {
-        element.style.opacity = 0;
-        element.style.transform = "translateY(-40px)";
-        let startTime = null;
-
-        function animate(timestamp) {
-          if (!startTime) startTime = timestamp;
-          const progress = timestamp - startTime;
-          const opacity = progress / duration;
-          const translateX = (progress / duration) * 40;
-
-          if (opacity >= 1) {
-            element.style.opacity = 1;
-            element.style.transform = "translateY(0)";
-          } else {
-            element.style.opacity = opacity;
-            element.style.transform = `translateY(calc(-40px + ${translateX}px))`;
-            requestAnimationFrame(animate);
-          }
-        }
-
-        requestAnimationFrame(animate);
-      }
-      const squareBoxes = document.querySelectorAll(".square-box");
-      squareBoxes.forEach((box) => {
-        fadeInAndTranslateX(box, 1000);
-      });
-    </script>
+    <script src="./scripts/OfferSquareAnimation.js"></script>
   </body>
 </html>

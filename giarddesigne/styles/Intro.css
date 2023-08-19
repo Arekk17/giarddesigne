@@ -1,6 +1,5 @@
 .slider-container {
   flex-direction: column;
-  margin-bottom: 50px;
 }
 
 .slide-text-container {
@@ -9,7 +8,6 @@
   color: rgb(0, 0, 0);
   padding: 20px;
 }
-
 .slide-text {
   margin-left: 24px;
   margin-top: 72px;
@@ -28,7 +26,7 @@ p {
 .slide-arrows {
   position: absolute;
   right: 0;
-  bottom: 50px;
+  bottom: 0;
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -109,7 +107,7 @@ p {
   }
 .slide-arrows {
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     right: 0;
     width: 192px;
     height: 98px;
