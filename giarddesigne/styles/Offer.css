@@ -40,14 +40,14 @@
   color: #1B5B31;
 }
 
-h2 {
+.title-text h2 {
   font-size: 48px;
 }
 
 .button-offer {
   background-color: transparent;
   border: none;
-  color: green;
+  color: #1B5B31;
   position: relative;
   text-decoration: none;
   cursor: pointer;
@@ -59,7 +59,7 @@ h2 {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: green;
+  background-color: #1B5B31;
   bottom: -2px;
   left: 0;
   transform: scaleX(1);
