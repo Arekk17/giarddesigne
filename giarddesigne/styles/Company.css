@@ -1,0 +1,35 @@
+.image-container {
+  display: flex;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+}
+.col-md-6{
+  padding: 0;
+}
+.right-container {
+    color: white;
+    background-color: #1B5B31;
+}
+.white-button {
+    color: white;
+    border-color: white;
+    height: 44px;
+    border-radius: 30px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 135px 90px;
+}
+.text-container h2{
+    font-size: 48px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+}
+.text-container p {
+    margin-bottom: 76px;
+}
