@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var $grid = $(".gallery-container").masonry({
+  const $grid = $(".gallery-container").masonry({
     itemSelector: ".col-md-4",
     columnWidth: ".col-md-4",
     percentPosition: true,

@@ -22,6 +22,10 @@
     z-index: 1;
   }
 
+  #realizations h2 {
+    font-size: 48px; /* Ustawienie rozmiaru fontu dla elementu h2 */
+  }
+
   .gallery-container {
     position: relative;
     z-index: 2; 
@@ -69,3 +73,4 @@
       width: 100%;
     }
   }
+  

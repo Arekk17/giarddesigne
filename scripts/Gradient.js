@@ -3,11 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function toggleOverlay() {
     const overlay = document.querySelector(".gradient-overlay");
-    if (overlayVisible) {
-      overlay.style.display = "none";
-    } else {
-      overlay.style.display = "block";
-    }
+    overlay.style.transition = "opacity 1s ease"; // Dodajemy transition do animacji zanikania
+    overlay.style.opacity = overlayVisible ? "0" : "1"; // Zmieniamy opacity w zależności od overlayVisible
     overlayVisible = !overlayVisible;
   }
 
