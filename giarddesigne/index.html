@@ -356,7 +356,7 @@
           <img src="./assets/About.png" alt="" />
         </div>
         <div class="col-md-6 col-sm-12 right-container">
-          <div class="text-container">
+          <div class="text-container animate-on-scroll">
             <small class="">O firmie</small>
             <h2>Tworzymy z pasją</h2>
             <p>
@@ -540,6 +540,33 @@
         </div>
       </div>
     </footer>
+    <script>
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      function animateOnScroll() {
+        var elements = document.querySelectorAll(".animate-on-scroll");
+        elements.forEach(function (element) {
+          if (isElementInViewport(element)) {
+            element.classList.add("animate");
+          }
+        });
+      }
+
+      // Wywołanie funkcji animateOnScroll przy zjeździe użytkownika oraz przy ładowaniu strony
+      document.addEventListener("scroll", animateOnScroll);
+      window.addEventListener("load", animateOnScroll);
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
