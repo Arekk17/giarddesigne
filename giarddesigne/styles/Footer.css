@@ -1,0 +1,24 @@
+.footer{
+    padding: 80px 0;
+    background-color: #111111;
+}
+.row{
+    margin: 0;
+}
+.btn-success{
+    background-color: #1B5B31;
+    border: none;
+}
+.contact{
+    margin-bottom: 120px;
+}
+.custom-line {
+    height: 1px;
+    background-color: #fff;
+    margin: 60px 0;
+  }
+  
+.contact-button{
+    font-size: 14px;
+    cursor: pointer;
+}

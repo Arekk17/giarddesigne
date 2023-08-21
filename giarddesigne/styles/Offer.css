@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 200px;
+  margin: 10px 200px;
 }
 .square-box {
   opacity: 0;
