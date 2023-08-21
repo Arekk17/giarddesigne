@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nawigacja</title>
+    <title>Giard Designe</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -16,7 +16,7 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
-
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./styles/Navigation.css" />
     <link rel="stylesheet" href="./styles/Intro.css" />
     <link rel="stylesheet" href="./styles/Offer.css" />
@@ -49,7 +49,7 @@
           <div class="nav-item dropdown">
             <a
               class="nav-link text-dark dropdown-toggle"
-              href="#"
+              href="#Offer"
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
@@ -57,16 +57,16 @@
               Oferta
             </a>
             <div class="dropdown-menu rounded" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Opcja 1</a>
-              <a class="dropdown-item" href="#">Opcja 2</a>
-              <a class="dropdown-item" href="#">Opcja 3</a>
+              <a class="dropdown-item" href="#Offer">Opcja 1</a>
+              <a class="dropdown-item" href="#Offer">Opcja 2</a>
+              <a class="dropdown-item" href="#Offer">Opcja 3</a>
             </div>
           </div>
           <div class="nav-item">
-            <a class="nav-link text-dark" href="#">Realizacje</a>
+            <a class="nav-link text-dark" href="#realizations">Realizacje</a>
           </div>
           <div class="nav-item">
-            <a class="nav-link text-dark" href="#">Kontakt</a>
+            <a class="nav-link text-dark" href="#contact">Kontakt</a>
           </div>
           <div class="searchBox">
             <div class="search">
@@ -261,7 +261,7 @@
         </div>
       </div>
     </article>
-    <article class="offer-container">
+    <article class="offer-container" id="Offer">
       <div class="offer-text">
         <small class="title-text">Oferta</small>
         <h2>Działamy kompleksowo</h2>
@@ -300,7 +300,7 @@
         </div>
         <div class="col-md-4 align-items-center">
           <div class="square-box">
-            <img src="./assets/Eye.png" alt="" />
+            <img src="./assets/Eye.png" alt="Eye" />
             <h3>Wizualizacje</h3>
             <span>
               Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego spaceru
@@ -325,7 +325,7 @@
         </div>
         <div class="col-md-4">
           <div class="square-box">
-            <img src="./assets/Star.png" alt="" />
+            <img src="./assets/Star.png" alt="Star" />
             <h3>Realizacje</h3>
             <span>
               Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i
@@ -386,7 +386,7 @@
         </div>
       </div>
     </article>
-    <div class="brown-background">
+    <article class="brown-background" id="realizations">
       <div class="title-container d-flex flex-column">
         <small class="title-text">Realizacje</small>
         <h2>Nasze projekty</h2>
@@ -480,8 +480,8 @@
           </svg>
         </button>
       </div>
-    </div>
-    <div class="container custom-container">
+    </article>
+    <article class="container custom-container" id="contact">
       <div class="row">
         <div class="col-md-12">
           <div class="green-container text-center">
@@ -502,7 +502,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </article>
     <footer class="footer text-white">
       <div class="container">
         <div class="row">
