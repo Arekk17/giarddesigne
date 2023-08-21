@@ -33,3 +33,15 @@
 .text-container p {
     margin-bottom: 76px;
 }
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
