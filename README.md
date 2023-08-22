@@ -6,7 +6,7 @@ To jest README dla projektu Wizytówki Firmy Ogrodniczej, który wykorzystuje te
 
 # Podgląd
 
-https://giarddesigne.vercel.app/
+https://giarddesigne.netlify.app/
 
 # Wymagania wstępne
 
