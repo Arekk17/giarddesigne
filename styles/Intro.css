@@ -44,8 +44,6 @@
 
 .slide-buttons {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   gap: 24px;
 }
 
@@ -96,8 +94,6 @@
     width: 50%;
   }
   .slide-text {
-    /* margin-left: 89px; */
-    /* width: 100%; */
     max-width: 600px;
 
   }
@@ -127,15 +123,11 @@
     padding: 20px;
   }
   .slide-buttons {
-    display: flex;
     margin-top: 10px;
-    flex-direction: row;
-    width: auto;
   }
 
   .slide-buttons button {
     padding: 10px 24px;
-    flex-wrap: nowrap;
   }
   
 }
