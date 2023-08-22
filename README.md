@@ -60,3 +60,7 @@ Opis struktury katalogów i plików w projekcie.
 # Użycie Bootstrapa
 
 Projekt wykorzystuje framework Bootstrap do responsywnego projektowania i stylizacji. Znajdziesz więcej informacji na stronie Bootstrap.
+
+# Projekt graficzny
+
+Projekt graficzny został wykonany przez **adRespect**.
