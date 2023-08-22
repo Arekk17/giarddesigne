@@ -1,66 +1,71 @@
-# Projekt Wizytówki Firmy Ogrodniczej - README
+# Business Card Design of a Gardening Company - README
 
 ![Alt text](image.png)
 
-To jest README dla projektu Wizytówki Firmy Ogrodniczej, który wykorzystuje technologie HTML, CSS, JavaScript oraz framework Bootstrap. Projekt zawiera animacje i prezentuje wizytówkę firmy ogrodniczej.
+This is a README for the Horticultural Business Card project, which uses HTML, CSS, JavaScript and Bootstrap framework. The project includes animations and presents a business card of a gardening company.
 
-# Podgląd
+# Preview
 
 https://giarddesigne.netlify.app/
 
-# Wymagania wstępne
+# Prerequisites
 
-Przed rozpoczęciem pracy nad projektem, upewnij się, że masz zainstalowane następujące narzędzia:
+Before you start working on your project, make sure you have the following tools installed:
 
-Node.js w wersji 14 lub nowszej
-npm (jest instalowane wraz z Node.js)
+Node. js version 14 or later
+npm (installed with Node. js)
 Git
 
-# Instalacja
+# Installation
 
-Sklonuj to repozytorium na swoim komputerze:
+Clone this repository on your computer:
 
 ```bash
 git clone https://github.com/Arekk17/giarddesigne
 ```
 
-Przejdź do katalogu projektu:
+Go to the project directory:
 
 ```bash
 cd nazwa_katalogu_projektu
 ```
 
-Zainstaluj zależności przy użyciu npm:
+Install dependencies using npm:
 
 ```bash
 npm install
 ```
 
-Uruchamianie
-Aby uruchomić projekt, wykonaj następujące kroki:
+Launching
+To start the project, follow these steps:
 
-W katalogu projektu, uruchom polecenie:
+In the project directory, run the command:
 
 ```bash
 npm run dev
 ```
 
-Otwórz przeglądarkę i przejdź do adresu http://localhost:3000 (lub innego, jeśli używasz innego portu).
+Open your browser and go to http://localhost:3000 (or another one if you use a different port).
 
-Struktura projektu
-Opis struktury katalogów i plików w projekcie.
+## Project structure:
 
-- index.html - Plik główny HTML projektu.
-- node_modules/ - Katalog z zależnościami npm.
-- script/ - Katalog zawiera wszystkie skrypty
-- styles/ - Katalog zawiera wszystkie style
-- assets/ - Katalog zawierający pliki statyczne, takie jak obrazy, ikony, itp.
-- Inne pliki źródłowe (zależnie od potrzeb projektu).
+Description of the structure of directories and files in the project.
 
-# Użycie Bootstrapa
+- index. html - Main HTML file of the project.
+- node_modules/ - Directory with npm dependencies.
+- script/ - Directory contains all scripts
+- styles/ - Catalog contains all styles
+- assets/ - Directory containing static files, such as images, icons, etc.
+- Other source files (depending on project needs)
 
-Projekt wykorzystuje framework Bootstrap do responsywnego projektowania i stylizacji. Znajdziesz więcej informacji na stronie Bootstrap.
+# Using Bootstrap
 
-# Projekt graficzny
+The project uses the Bootstrap framework for responsive design and styling. See Bootstrap for more information.
 
-Projekt graficzny został wykonany przez **adRespect**.
+# Using Macy.js
+
+this project includes macy js to store photo galleries
+
+# Graphic design
+
+The graphic design was made by **adRespect**.
