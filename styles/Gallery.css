@@ -7,6 +7,9 @@
   margin-left: 40px;
   margin: 100px;
 }
+.title-container h2{
+  font-size: 48px;
+}
 .gradient-overlay {
   position: absolute;
   top: 0;
