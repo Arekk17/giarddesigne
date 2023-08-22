@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #fff;
   padding: 10px;
 }
 
@@ -62,7 +62,7 @@
   border-color: #1B5B31;
 }
 .slide-buttons button:hover{
-  color: white;
+  color: #fff;
   border: none;
 }
 

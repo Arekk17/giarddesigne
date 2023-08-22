@@ -13,7 +13,7 @@
     width: 30px;
     height: 2px;
     margin: 6px auto;
-    background: #000000;
+    background: #000;
     transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 .navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
@@ -61,7 +61,7 @@
     transition: 200ms;
     width: 300px;
     height: 40px;
-    background-color: white;
+    background-color: #fff;
   }
   
   .searchBox.active .close {
@@ -90,7 +90,6 @@
   .searchBox .searchInput {
     position: relative;
     height: 40px;
-    background-color: #f00;
   }
   
   .searchBox .searchInput input {

@@ -10,12 +10,12 @@
   padding: 0;
 }
 .right-container {
-    color: white;
+    color: #fff;
     background-color: #1B5B31;
 }
 .white-button {
-    color: white;
-    border-color: white;
+    color: #fff;
+    border-color: #fff;
     height: 44px;
     border-radius: 30px;
 }
