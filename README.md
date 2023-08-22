@@ -54,9 +54,7 @@ Opis struktury katalogów i plików w projekcie.
 - node_modules/ - Katalog z zależnościami npm.
 - script/ - Katalog zawiera wszystkie skrypty
 - styles/ - Katalog zawiera wszystkie style
-- public/ - Katalog zawierający pliki statyczne, takie jak obrazy, ikony, itp.
-- src/ - Katalog źródłowy projektu.
-- main.js - Główny plik JavaScript, importujący i konfigurujący aplikację.
+- assets/ - Katalog zawierający pliki statyczne, takie jak obrazy, ikony, itp.
 - Inne pliki źródłowe (zależnie od potrzeb projektu).
 
 # Użycie Bootstrapa
