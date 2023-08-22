@@ -10,13 +10,14 @@
   padding: 0;
 }
 .right-container {
-    color: #fff;
+    color: #F5F0EC;
     background-color: #1B5B31;
 }
 .white-button {
-    color: #fff;
-    border-color: #fff;
+    color: #F5F0EC;
+    border-color: #F5F0EC;
     height: 44px;
+    max-width: 194px;
     border-radius: 30px;
 }
 .text-container{
