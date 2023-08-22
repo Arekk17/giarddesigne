@@ -1,16 +1,14 @@
-$(document).ready(function () {
-  const $grid = $(".gallery-container").masonry({
-    itemSelector: ".col-md-4",
-    columnWidth: ".col-md-4",
-    percentPosition: true,
-    gutter: 43,
-  });
-
-  $grid.imagesLoaded().progress(function () {
-    $grid.masonry("layout");
-  });
-
-  $(window).resize(function () {
-    $grid.masonry("layout");
-  });
+const masonry = new Macy({
+  container: ".container-image",
+  mobileFirst: true,
+  columns: 1,
+  breakAt: {
+    400: 2,
+    700: 3,
+    1000: 3,
+  },
+  margin: {
+    x: 40,
+    y: 40,
+  },
 });
